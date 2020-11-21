@@ -3,32 +3,32 @@ module.exports = {
     return [
       {
         name: 'name',
-        type: 'input',
+        type: 'text',
         message: `Component name:`
       },
       {
         name: 'packageName',
-        type: 'input',
+        type: 'text',
         message: `Package name:`
       },
       {
         name: 'title',
-        type: 'input',
+        type: 'text',
         message: 'Human friendly title:'
       },
       {
         name: 'description',
-        type: 'input',
+        type: 'text',
         message: 'Describe it:'
       },
       {
         name: 'author',
-        type: 'input',
+        type: 'text',
         message: 'Author:'
       },
       {
         name: 'githubOrg',
-        type: 'input',
+        type: 'text',
         message: 'GitHub org:'
       }
     ];
