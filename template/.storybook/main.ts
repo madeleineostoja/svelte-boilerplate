@@ -28,10 +28,6 @@ const CONFIG = {
 module.exports = {
   stories: CONFIG.stories,
   addons: ['@storybook/addon-links', '@storybook/addon-essentials'],
-  babel: async (options) => ({
-    ...options,
-    presets: [...options.presets, require.resolve('linaria/babel')]
-  }),
   webpackFinal: async (config) => {
     const findRule = (ext) => {
       return config.module.rules.find((rule) => {
@@ -55,13 +51,6 @@ module.exports = {
         delete rule.removeMatch;
       }
       config.module.rules.push(rule);
-    });
-
-    config.module.rules[0].use.push({
-      loader: 'linaria/loader',
-      options: {
-        sourceMap: !prod
-      }
     });
 
     return config;

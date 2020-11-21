@@ -2,7 +2,7 @@ import <%= name %> from './<%= name %>.svelte';
 
 export default {
   title: 'API & Demo',
-  component: Dropdown
+  component: <%= name %>
 };
 
 export const Default = () => ({
