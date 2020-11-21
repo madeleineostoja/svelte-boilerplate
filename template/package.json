@@ -9,8 +9,7 @@
   "svelte": "<%= name %>.svelte",
   "scripts": {
     "build": "rollup -c",
-    "develop": "rollup -cw",
-    "develop:docs": "start-storybook -p 3002",
+    "develop": "rollup -cw & start-storybook -p 3002",
     "build-storybook": "build-storybook",
     "deploy:docs": "storybook-to-ghpages --out .cache",
     "clean": "rm -rf ./dist",
