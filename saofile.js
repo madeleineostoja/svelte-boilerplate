@@ -1,33 +1,33 @@
 module.exports = {
   prompts: [
     {
-      name: 'name',
       type: 'input',
+      name: 'name',
       message: `Component name:`
     },
     {
-      name: 'packageName',
       type: 'input',
+      name: 'packageName',
       message: `Package name:`
     },
     {
-      name: 'title',
       type: 'input',
+      name: 'title',
       message: 'Human friendly title:'
     },
     {
-      name: 'description',
       type: 'input',
+      name: 'description',
       message: 'Describe it:'
     },
     {
-      name: 'author',
       type: 'input',
+      name: 'author',
       message: 'Author:'
     },
     {
-      name: 'githubOrg',
       type: 'input',
+      name: 'githubOrg',
       message: 'GitHub org:'
     }
   ],
