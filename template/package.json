@@ -21,8 +21,8 @@
     "svelte"
   ],
   "files": [
-    "*.ts",
-    "*.svelte",
+    "src",
+    "types",
     "dist"
   ],
   "repository": {
