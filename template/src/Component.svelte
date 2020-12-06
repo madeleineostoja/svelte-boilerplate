@@ -3,7 +3,7 @@
   <%= description %>
 -->
 <script>
-  <% props && props.forEach(prop => { -%>
+<% props && props.forEach(prop => { -%>
   /** @type {<%= prop.type %>} */
   export let <%= prop.name %>;
 <% }) -%>

@@ -48,7 +48,7 @@ module.exports = {
     },
     {
       name: 'props',
-      message: 'Props :: [prop]:[type];',
+      message: 'Props :: [prop]:[type](description);',
       filter: transformPropsString
     }
   ],

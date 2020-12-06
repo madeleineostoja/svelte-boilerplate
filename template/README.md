@@ -22,5 +22,9 @@ See the [API Docs](https://<%= githubOrg %>.github.io/<%= packageName %>/) for a
 
 ### Properties
 
-| Property | Description |
-| -------- | ----------- |
+| Property | Type | Default | Description |
+| -------- | ---- | ------- | ----------- |
+
+<% props && props.forEach(prop => { -%>
+| `<%= prop.name %>` | `<%= prop.type %>` | `-` | `<%= prop.description %>` |
+<% }) -%>
