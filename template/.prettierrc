@@ -1,5 +1,14 @@
 {
   "singleQuote": true,
   "trailingComma": "none",
-  "svelteBracketNewLine": true
+  "svelteBracketNewLine": true,
+  "svelteSortOrder": "options-scripts-styles-markup",
+  "overrides": [
+    {
+      "files": ["*.css"],
+      "options": {
+        "singleQuote": false
+      }
+    }
+  ]
 }

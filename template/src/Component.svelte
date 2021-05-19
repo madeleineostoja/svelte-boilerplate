@@ -1,5 +1,5 @@
 <!--
-  @component <%= name %> Component
+  @component
   <%= description %>
 -->
 <script>
@@ -9,7 +9,4 @@
 <% }) -%>
 </script>
 
-<style>
-</style>
-
-
+<div class={$$props.class} {...$$restProps} />
